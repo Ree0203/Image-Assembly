@@ -19,7 +19,6 @@ MAIN:
     mov ah, 9
     int 21h
 
-    ; Exit program cleanly
     mov ax, 4c00h
     int 21h
 
